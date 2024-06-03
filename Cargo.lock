@@ -982,6 +982,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "psql"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "603d1d91762dc80ec7e4d57e1d680e88eda0ddd925e03b597218dea68ce11bdb"
+
+[[package]]
 name = "quote"
 version = "1.0.36"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1766,6 +1772,7 @@ name = "zero2prod"
 version = "0.1.0"
 dependencies = [
  "actix-web",
+ "psql",
  "reqwest",
  "serde",
  "tokio",
