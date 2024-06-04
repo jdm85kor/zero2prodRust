@@ -27,3 +27,7 @@ pub fn run(listener: TcpListener) -> Result<Server, std::io::Error> {
 
 	Ok(server)
 }
+
+pub mod configuration;
+pub mod routes;
+pub mod startup;
